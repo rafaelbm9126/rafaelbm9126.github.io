@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css?family=Livvic&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lovers+Quarrel&display=swap');
+.none {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 0;
+    border: 0;
+}
+.content {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.left .image {
+    background-color: white;
+    width: 100%;
+    height: 255px;
+}
+.left .image img {
+    width: 400px;
+    height: 100%;
+}
+.left .charts {
+    display: flex;
+    flex-direction: column;
+    background-color: #000131;
+    width: 100%;
+    padding-bottom: 10px;
+}
+.charts .paragrap {
+    color: white;
+    text-align: justify;
+    padding: 10px 26px;
+    font-style: italic;
+    font-family: 'Abel', sans-serif;
+}
+.charts h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Abel', sans-serif;
+    font-weight: 600;
+    margin: 10px 0 0 0;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.charts .wrapper-content-chart {
+    display: flex;
+    justify-content: center;
+}
+.wrapper-content-chart .chart-three {
+    width: 33.33333333333%;
+}
+.wrapper-content-chart .content-chart {
+    width: 50%;
+}
+.charts .bars {
+    display: flex;
+    flex-direction: column;
+}
+.bars .content-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.content-bar .title {
+    width: 90%;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 5%;
+    font-family: 'Bree Serif', serif;
+    color: white;
+}
+.content-bar progress {
+    width: 90%;
+    border-radius: 50px;
+}
+.content-bar progress::-webkit-progress-bar {
+    border: 0;
+    height: 12px;
+    border-radius: 20px;
+    background: #ff632a;
+}
+.content-bar progress::-webkit-progress-value {
+    border: 0;
+    height: 12px;
+    border-radius: 20px;
+    background: white;
+}
+.content-bar .details {
+    width: 100%;
+    color: white;
+    font-size: 12px;
+    text-align: right;
+    margin-right: 12%;
+    font-weight: 600;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.right .top-data {
+    background-color: #000131;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 158px;
+    line-height: 35px;
+    padding-top: 10px;
+}
+.right .top-data h1 {
+    font-family: 'Livvic', sans-serif;
+    font-size: 50px;
+    color: white;
+    margin: 0;
+    letter-spacing: 8px;
+    text-align: center;
+}
+.right .top-data h3 {
+    font-family: 'Abel', sans-serif;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+    color: #ff632a;
+    letter-spacing: 5px;
+}
+.right .top-data .network-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.right .thing {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+.thing .text {
+    font-size: 38px;
+    color: #3e3e3e;
+    font-style: italic;
+    font-family: 'Lovers Quarrel', cursive;
+}
+.network-content .network-column {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.network-column .network {
+    width: 40%;
+    margin-left: 10%;
+    color: white;
+    font-family: 'Abel', sans-serif;
+    font-weight: 600;
+}
+.right .details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding-top: 5px;
+}
+.right .details .more-details {
+    width: 88%;
+    height: 98%;
+    border-left: 3px solid #ff632a;
+}
+.more-details .section {
+    display: flex;
+    width: 100%;
+    padding: 0 0 15px 0;
+}
+.section .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: #ff632a;
+    width: 53px;
+    height: 50px;
+    margin: -2px 0 0 -26px;
+    color: white;
+    font-size: 25px;
+}
+.section .title {
+    width: 100%;
+    text-align: center;
+    color: #ff632a;
+    font-family: 'Abel', sans-serif;
+    font-weight: 600;
+    margin: 10px 0 0 0;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.portfolio {
+    margin-top: 5px;
+}
+.icon-portfolio {
+    margin-top: 20px;
+}
+.date-portfolio {
+    margin-top: 20px;
+}
+.more-details .item {
+    display: flex;
+    width: 100%;
+    padding: 0 0 15px 0;
+}
+.item .icon {
+    border-radius: 50px;
+    background-color: #ff632a;
+    width: 21px;
+    height: 20px;
+    margin: -2px 0 0 -11px;
+}
+.item .icon-hobbies {
+    border-radius: 50px;
+    background-color: #ff632a;
+    width: 21px;
+    height: 20px;
+    margin: 5px 0 0 -11px;
+}
+.item .date {
+    width: 120px;
+    margin: 0 10px 0 10px;
+    font-family: 'Abel', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.item .content-data {
+    margin: 0 10px 0 10px;
+    width: 300px;
+}
+.item .hobbies {
+    display: flex;
+    flex-direction: row;
+    margin: -3px 0 0 0;
+    width: 100%;
+    justify-content: space-around;
+}
+.hobbies .item-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hobbies .item-wrapper i {
+    font-size: 40px;
+}
+.hobbies .item-wrapper .family {
+    display: flex;
+    width: auto;
+    height: 40px;
+}
+.family i:nth-child(1), .family i:nth-child(3) {
+    font-size: 40px;
+}
+.family i:nth-child(2) {
+    margin: 10px 0 0 2px;
+    font-size: 28px;
+}
+.content-data .title {
+    font-family: 'Abel', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 100%;
+}
+.content-data .title.minus {
+    text-transform: lowercase;
+}
+.content-data .paragrap {
+    font-family: 'Abel', sans-serif;
+    text-transform: uppercase;
+    width: 100%;
+    font-size: 12px;
+}
+.content-data .paragrap-details {
+    font-family: 'Abel', sans-serif;
+    width: 100%;
+    font-size: 12px;
+    color: #212121;
+    font-style: italic;
+}
