@@ -13,6 +13,7 @@ body {
     margin: 5px;
     padding: 0;
     border: 0;
+    zoom: 0.72;
 }
 .content {
     position: relative;
